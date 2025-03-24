@@ -48,17 +48,26 @@ python 1image_basics.py
 ```
 Loads and displays a sample image.
 
+![hide the name you wan to give ](https://github.com/user-attachments/assets/7d9f8521-66f0-47b6-ab42-04ce8634e36a)
+
+
+
 ### Live Video Capture
 ```bash
 python 2video_basics.py
 ```
 Opens webcam and captures live video. Press 'q' to quit.
 
+![demo](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/demo2.gif)
+
 ### Face Detection
 ```bash
 python face_detection.py
 ```
 Detects and highlights faces in real-time. Press 'q' to exit.
+
+![demo](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/demo.gif)
+
 
 ## 🔬 Techniques Used
 - Haar Cascade Classifier
