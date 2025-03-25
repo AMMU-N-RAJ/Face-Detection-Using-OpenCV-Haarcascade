@@ -51,7 +51,6 @@ Loads and displays a sample image.
 ![hide the name you wan to give ](https://github.com/user-attachments/assets/7d9f8521-66f0-47b6-ab42-04ce8634e36a)
 
 
-
 ### Live Video Capture
 ```bash
 python 2video_basics.py
@@ -59,6 +58,33 @@ python 2video_basics.py
 Opens webcam and captures live video. Press 'q' to quit.
 
 ![demo](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/demo2.gif)
+
+
+### Draw shapes on images
+```bash
+python 3draw_image.py
+```
+Loads and displays a sample image with shapes drawn.
+
+![hide the name you wan to give ](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/img5.png)
+
+
+### Image grayscale and blurring
+```bash
+python 4gray_scale.py
+```
+Loads and displays three images- sample image,grayscale of the sample and the blurred image of the sample.
+
+![hide the name you wan to give ](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/img6.png)
+
+
+### Real-time edge detection
+```bash
+python 5live_edge.py
+```
+Detects and highlights edges in real-time. Press 'q' to exit.
+
+![hide the name you wan to give ](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/img7.png)
 
 ### Face Detection
 ```bash
