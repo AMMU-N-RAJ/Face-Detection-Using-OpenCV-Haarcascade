@@ -68,6 +68,38 @@ Detects and highlights faces in real-time. Press 'q' to exit.
 
 ![demo](https://github.com/AMMU-N-RAJ/Face-Detection-Using-OpenCV-Haarcascade/blob/main/demo.gif)
 
+### Mirror 
+```bash
+python mirror.py
+```
+Realtime Creates mirror effect of the image . Press 'q' to exit.
+In the line frame = cv2.flip(frame, 1), the parameters represent:
+~First parameter: The image/frame to be flipped
+~Second parameter (1 or 0): The flipping code
+The flipping codes in OpenCV have specific meanings:
+~0: Flip vertically (around the x-axis)
+~1: Flip horizontally (around the y-axis)
+~-1: Flip both vertically and horizontally
+In this specific mirror.py script, cv2.flip(frame, 1) is used to horizontally flip the entire frame. This creates a mirror-like effect where the image appears as if reflected in a mirror, preventing the natural "inverted" look of a webcam view.
+
+[when both are 1 in line 10 and 14 of the mirror.py👇]
+
+![hide the name you wan to give ](https://github.com/user-attachments/assets/6a13fd60-2466-4287-8fd0-2c248d77d95d)
+
+
+
+[when both are 0 in line 10 and 14 of the mirror.py👇]
+
+![hide the name you wan to give ](https://github.com/user-attachments/assets/4965c0cc-377c-4187-a760-02d74832f5dc)
+
+[when 0 in line 10 and 1 in line 14 of the mirror.py👇]
+
+![hide the name you wan to give ](https://github.com/user-attachments/assets/cd259424-9568-4c64-9fb7-94ac9ea8797e)
+
+[when 1 in line 10 and 0 in line 14 of the mirror.py👇]
+
+![hide the name you wan to give ](https://github.com/user-attachments/assets/1b197b51-4a44-4167-8fa9-350cbaa7d839)
+
 
 ## 🔬 Techniques Used
 - Haar Cascade Classifier
