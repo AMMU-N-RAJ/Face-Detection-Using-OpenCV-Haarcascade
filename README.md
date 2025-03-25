@@ -98,15 +98,15 @@ Detects and highlights faces in real-time. Press 'q' to exit.
 ```bash
 python mirror.py
 ```
-Realtime Creates mirror effect of the image . Press 'q' to exit.
-In the line frame = cv2.flip(frame, 1), the parameters represent:
-~First parameter: The image/frame to be flipped
-~Second parameter (1 or 0): The flipping code
-The flipping codes in OpenCV have specific meanings:
-~0: Flip vertically (around the x-axis)
-~1: Flip horizontally (around the y-axis)
-~-1: Flip both vertically and horizontally
-In this specific mirror.py script, cv2.flip(frame, 1) is used to horizontally flip the entire frame. This creates a mirror-like effect where the image appears as if reflected in a mirror, preventing the natural "inverted" look of a webcam view.
+Realtime Creates mirror effect of the image . Press 'q' to exit.<br><br>
+In the line frame = cv2.flip(frame, 1), the parameters represent:<br>
+~First parameter: The image/frame to be flipped<br>
+~Second parameter (1 or 0): The flipping code<br>
+The flipping codes in OpenCV have specific meanings:<br>
+~0: Flip vertically (around the x-axis)<br>
+~1: Flip horizontally (around the y-axis)<br>
+~-1: Flip both vertically and horizontally<br>
+In this specific mirror.py script, cv2.flip(frame, 1) is used to horizontally flip the entire frame. This creates a mirror-like effect where the image appears as if reflected in a mirror, preventing the natural "inverted" look of a webcam view.<br>
 
 [when both are 1 in line 10 and 14 of the mirror.py👇]
 
